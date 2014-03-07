@@ -21,7 +21,7 @@ def F(K,L=1,alpha=.3,A=1):
 
 def Va(k,alpha=.3,beta=.9):
     ab=alpha*beta
-    return alpha*np.log(k)/(1-ab)
+    return np.log(1-ab)/(1-beta)+ab*np.log(ab)/((1-beta)*(1-ab))+alpha*np.log(k)/(1-ab)
 
 def opk(k,alpha=.3,beta=.9):
     return alpha*beta*k**alpha
