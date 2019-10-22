@@ -5,9 +5,9 @@ by
 ### [Ömer Özak](http://omerozak.com)
 
 
-This repository contains notebooks I have written to help my first year Ph.D. students get started using IPython for doing Computational Economics, Economic Growth, and Dynamic Macroeconomics in general. I highly recommend students to also check out [John Stachurski's website](http://johnstachurski.net/personal/edtc.html) and book. 
+This repository contains notebooks I have written to help my first and second year Ph.D. students get started using Jupyter/IPython for doing Computational Economics, Economic Growth, Comparative Development, and Dynamic Macroeconomics in general. I highly recommend students to also check out [John Stachurski's website](http://johnstachurski.net/personal/edtc.html) and his book. 
 
-These lectures are work in progress. Comments are welcome.
+These lectures are work in progress (more up-to-date notes may be found in my [Economic Growth and Comparative Development Website](https://econgrowth.github.io)). Comments are welcome.
 
 =======
 
@@ -19,7 +19,7 @@ In order to work with them, you need to:
 
 Then a webpage should open with the notebooks. Click on the one you want to work with.
 
-It is obviously presupposed you have IPython installed. If that is not the case, then head over to [Enthought Canopy](https://www.enthought.com/products/canopy/academic/) and install it.
+It is obviously presupposed you have IPython installed. If that is not the case, then head over to my [Economic Growth and Comparative Development Website](https://econgrowth.github.io) and follow the [instructions](https://econgrowth.github.io/pages/Computation.html).
 
--> Enjoy!<-
+-> Enjoy! <-
 
