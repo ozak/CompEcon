@@ -34,8 +34,11 @@ dependencies:
   - ipywidgets
   - jupyter
   - jupyterlab
+  - kiwisolver
   - matplotlib
+  - markdown
   - networkx
+  - nose
   - numba
   - numpy
   - openpyxl
@@ -58,6 +61,8 @@ dependencies:
   - r-dplyr
   - rise
   - seaborn
+  - scikit-allel
+  - scikit-bio
   - scikit-image
   - scikit-learn
   - scipy
