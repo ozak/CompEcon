@@ -9,9 +9,20 @@ channels:
 dependencies:
   - python==3.7
   - pip
-  - basemap
+  - numpy
+  - pandas
+  - docopt
+  - gdal
+  - pyproj
+  - scikit-image
+  - matplotlib-base
+  - coverage
+  - fiona
+  - geopandas
+  - pysal
+  - affine
+  - rasterstats >=0.12
   - bzip2
-  - cartopy
   - datashader
   - datashape
   - georasters
@@ -20,8 +31,6 @@ dependencies:
   - ipython
   - ipython_genutils
   - ipywidgets
-  - jupyter
-  - jupyterlab
   - numpy
   - openpyxl
   - pandas
@@ -42,10 +51,8 @@ dependencies:
   - r-dplyr
   - rise
   - seaborn
-  - scikit-image
   - scikit-learn
   - scipy
-  - swifter
   - unidecode
   - urllib3
   - wikipedia
@@ -56,66 +63,20 @@ dependencies:
     - isounidecode
     - geonamescache
     - geocoder
-    - git+https://github.com/jeetsukumaran/DendroPy.git
     - git+https://github.com/dmsul/econtools
     - ecopy
-    - facebook-business
-    - facebook-sdk
-    - fontawesome-markdown
-    - geocoder
     - geonamescache
     - googledrivedownloader
     - googletrans
     - ipystata
     - isodate
     - isounidecode
-    - latexcodec
     - ldpred
     - linearmodels
-    - lingpy
-    - mccabe
-    - ordered-set
-    - plinkio
-    - pyarrow
-    - pybtex
-    - pycldf
-    - pycountry
-    - pydocstyle
-    - pyface
-    - pyflakes
-    - pylatex
-    - pyparsing
     - pyreadstat
-    - pytest-cov
-    - python-jsonrpc-server
-    - python-language-server
     - pytrends
-    - quilt
-    - ratelim
-    - readme-renderer
-    - rfc3986
-    - rope
     - simpledbf
     - simplejson
     - smartypants
-    - snowballstemmer
-    - snuggs
     - stata-kernel
     - tabulate
-    - tex2ipy
-    - texsoup
-    - toolz
-    - traits
-    - traitsui
-    - twine
-    - typogrify
-    - uritemplate
-    - w3lib
-    - webencodings
-    - wrapt
-    - xlwt
-    - yapf
-    - modin
-    - stargazer
-    - covid
-    - COVID19Py
