@@ -103,9 +103,9 @@ dependencies:
     - git+https://github.com/jeetsukumaran/DendroPy.git
     - git+https://github.com/dmsul/econtools
     - ecopy
-    - facebook- business
-    - facebook- sdk
-    - fontawesome- markdown
+    - facebook-business
+    - facebook-sdk
+    - fontawesome-markdown
     - geocoder
     - geonamescache
     - googledrivedownloader
@@ -118,7 +118,7 @@ dependencies:
     - linearmodels
     - lingpy
     - mccabe
-    - ordered- set
+    - ordered-set
     - plinkio
     - pyarrow
     - pybtex
@@ -130,13 +130,13 @@ dependencies:
     - pylatex
     - pyparsing
     - pyreadstat
-    - pytest- cov
-    - python- jsonrpc- server
-    - python- language- server
+    - pytest-cov
+    - python-jsonrpc-server
+    - python-language-server
     - pytrends
     - quilt
     - ratelim
-    - readme- renderer
+    - readme-renderer
     - rfc3986
     - rope
     - simpledbf
@@ -144,7 +144,7 @@ dependencies:
     - smartypants
     - snowballstemmer
     - snuggs
-    - stata- kernel
+    - stata-kernel
     - tabulate
     - tex2ipy
     - texsoup
