@@ -10,11 +10,23 @@ dependencies:
   - python==3.7
   - pip
   - basemap
+  - beautifulsoup4
+  - bokeh
   - bzip2
   - cartopy
   - datashader
   - datashape
+  - descartes
+  - dill
+  - fiona
+  - geographiclib
+  - geopandas
+  - geoplot
+  - geopy
+  - geotiff
   - georasters
+  - imageio
+  - imagesize
   - ipykernel
   - ipyparallel
   - ipython
@@ -22,10 +34,14 @@ dependencies:
   - ipywidgets
   - jupyter
   - jupyterlab
+  - matplotlib
+  - networkx
+  - numba
   - numpy
   - openpyxl
   - pandas
   - pandas-datareader
+  - pandasql
   - pandana
   - pycountry
   - pysal
