@@ -28,6 +28,7 @@ dependencies:
   - statsmodels
   - seaborn
   - geoplot
+  - cython
   - datashader
   - datashape
   - georasters
