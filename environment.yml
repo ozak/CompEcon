@@ -5,7 +5,8 @@ channels:
   - rapidsai
   - mro
   - r
-  - defaults
+  - conda-forge/label/broken
+#  - defaults
 dependencies:
   - python==3.7
   - pip
