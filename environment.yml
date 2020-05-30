@@ -1,15 +1,16 @@
-name: GeoPython37env
+name: GeoPython38env
 channels:
   - conda-forge
-  - numba
-  - rapidsai
-  - mro
-  - r
-  - conda-forge/label/broken
+#  - numba
+#  - rapidsai
+#  - mro
+#  - r
+#  - conda-forge/label/broken
 #  - defaults
 dependencies:
-  - python==3.7
+  - python==3.8
   - pip
+  - gdal
   - numpy
   - pandas
   - docopt
@@ -20,26 +21,25 @@ dependencies:
   - coverage
   - fiona
   - geopandas
+  - descartes
   - pysal
   - affine
-  - rasterstats >=0.12
-  - bzip2
+  - rasterstats>=0.12
+  - statsmodels
+  - seaborn
+  - geoplot
   - datashader
   - datashape
   - georasters
-  - ipykernel
-  - ipyparallel
-  - openpyxl
   - pandas
   - pandas-datareader
   - pandana
   - pycountry
-  - pysal
   - urbanaccess
   - r
-  - rstudio
+  - r-base
+  #- rstudio
   - r-irkernel
-  - statsmodels
   - sympy
   - rpy2
   - r-tidyr
