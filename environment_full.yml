@@ -1,32 +1,62 @@
-name: GeoPython37env
+name: GeoPython38env
 channels:
   - conda-forge
-  - numba
-  - rapidsai
-  - mro
-  - r
-  - defaults
+#  - numba
+#  - rapidsai
+#  - mro
+#  - r
+#  #  - conda-forge/label/broken
+#  - defaults
 dependencies:
-  - python==3.7
+  - coverage
+  - docopt
+  - fiona
+  - gdal
+  - matplotlib-base
+  - matplotlib
+  - numpy
+  - pandas
+  - python==3.8
   - pip
-  - basemap
-  - beautifulsoup4
-  - bokeh
-  - bzip2
-  - cartopy
+  - pyproj
+  - scikit-image
+  - geopandas
+  - descartes
+  - pysal
+  - affine
+  - rasterstats>=0.12
+  - statsmodels
+  - seaborn
+  - geoplot
+  - cython
   - datashader
   - datashape
-  - descartes
-  - dill
-  - fiona
-  - geographiclib
-  - geopandas
-  - geoplot
-  - geopy
-  - geotiff
   - georasters
-  - imageio
-  - imagesize
+  - pandas-datareader
+  - pandana
+  - pycountry
+  - urbanaccess
+  - r
+  - r-base
+  #- rstudio
+  - r-irkernel
+  - sympy
+  - rpy2
+  - r-tidyr
+  - r-tibble
+  - r-dplyr
+  - scikit-learn
+  - scipy
+  - unidecode
+  - urllib3
+  - wikipedia
+  - xlrd
+  - jupyter_contrib_nbextensions
+  - geopy
+  - geographiclib
+#  - geotiff
+#  - imageio
+#  - imagesize
   - ipykernel
   - ipyparallel
   - ipython
@@ -35,24 +65,17 @@ dependencies:
   - jupyter
   - jupyterlab
   - kiwisolver
-  - matplotlib
   - markdown
   - networkx
   - nose
   - numba
   - numpy
   - openpyxl
-  - pandas
-  - pandas-datareader
-  - pandasql
-  - pandana
-  - pycountry
-  - pysal
-  - urbanaccess
+#  - pandasql
   - r
-  - rstudio
+  - r-base
+#  - rstudio
   - r-irkernel
-  - statsmodels
   - sympy
   - rpy2
   - rasterio
@@ -60,7 +83,6 @@ dependencies:
   - r-tibble
   - r-dplyr
   - rise
-  - seaborn
   - scikit-allel
   - scikit-bio
   - scikit-image
@@ -71,12 +93,38 @@ dependencies:
   - urllib3
   - wikipedia
   - xlrd
-  - jupyter_contrib_nbextensions
+  - asciitree
+  - autopep8
+  - babel
+  - basemap
+  - beautifulsoup4
+  - blas
+#  - blaze
+  - bokeh
+  - bzip2
+  - cartopy
+  - colorcet
+  - curl
+  - cytoolz
+  - dask
+  - dask-core
+  - dill
+  - docutils
+  - earthengine-api
+  - gensim
+  - geotiff
+  - google-api-python-client
+  - google-auth
+  - google-auth-httplib2
+  - imageio
+  - imagesize
+  - pandoc
+  - pandocfilters
+  - pelican
+  - pymc3
+  - theano
   - pip:
     - linearmodels
-    - isounidecode
-    - geonamescache
-    - geocoder
     - git+https://github.com/jeetsukumaran/DendroPy.git
     - git+https://github.com/dmsul/econtools
     - ecopy
