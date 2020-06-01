@@ -5,7 +5,7 @@ channels:
 #  - numba
 #  - rapidsai
 #  - mro
-  - r
+#  - r
 #  #  - conda-forge/label/broken
 #  - defaults
 dependencies:
@@ -39,7 +39,7 @@ dependencies:
   - urbanaccess
   - r
   - r-base
-  - rstudio
+  #- rstudio
   - r-irkernel
   - sympy
   - rpy2
