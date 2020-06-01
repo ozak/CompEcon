@@ -124,6 +124,7 @@ dependencies:
   - pelican
   - pymc3
   - theano
+  - camelot-py
   - pip:
     - linearmodels
     - git+https://github.com/jeetsukumaran/DendroPy.git
