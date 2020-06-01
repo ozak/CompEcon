@@ -4,7 +4,7 @@ channels:
 #  - numba
 #  - rapidsai
 #  - mro
-#  - r
+  - r
 #  #  - conda-forge/label/broken
 #  - defaults
 dependencies:
@@ -72,9 +72,7 @@ dependencies:
   - numpy
   - openpyxl
 #  - pandasql
-  - r
-  - r-base
-#  - rstudio
+  - rstudio
   - r-irkernel
   - sympy
   - rpy2
@@ -123,6 +121,7 @@ dependencies:
   - pelican
   - pymc3
   - theano
+  - camelot-py
   - pip:
     - linearmodels
     - git+https://github.com/jeetsukumaran/DendroPy.git
