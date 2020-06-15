@@ -124,6 +124,7 @@ dependencies:
   - theano
   - camelot-py
   - html5lib
+  - ghostscript
   - pip:
     - linearmodels
     - git+https://github.com/jeetsukumaran/DendroPy.git
