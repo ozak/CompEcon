@@ -17,4 +17,4 @@ from __future__ import division
 import numpy as np
 import matplotlib.pyplot as plt
 '''
-print 'Hello World!'
+print('Hello World!')
