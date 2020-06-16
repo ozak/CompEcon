@@ -190,3 +190,4 @@ dependencies:
     - stargazer
     - covid
     - COVID19Py
+    - git+https://github.com/ozak/camelot
