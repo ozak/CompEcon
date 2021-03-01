@@ -81,7 +81,7 @@ dependencies:
   - r-tidyr
   - r-tibble
   - r-dplyr
-  - rise
+#  - rise
   - scikit-allel
   - scikit-bio
   - scikit-image
